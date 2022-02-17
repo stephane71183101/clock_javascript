@@ -1,0 +1,63 @@
+/*
+div {background-color: orange;
+    width: 300px;
+    border: 1px solid black;
+    padding: 0px;
+    margin: px;
+    color: black;
+    font-family: Lucida;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+*/
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+body {
+    background-color: rgb(255, 145, 0);
+    
+}
+
+#text {
+    text-align: center;
+    color: rgb(5, 5, 5);
+    font-size: 2em;
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+
+#clock, #timer, #countdown {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 5em;
+    color: white;
+    letter-spacing: 7px;
+    font-family: Lucida;
+}
+
+.date-input {
+    display:block;
+    margin: auto;
+    border-color: black;
+    border-style:double;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    font-family: Lucida;
+    font-size: 30px;
+}
+
+.date-button {
+    display: block;
+    margin: auto;
+    border-color: black;
+    border-style: double;
+    background-color: rgb(255, 145, 0);;
+    color:black;
+    font-family: Lucida;
+    font-size: 30px;
+}

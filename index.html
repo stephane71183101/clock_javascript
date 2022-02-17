@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    <!-- AAA -->
+    <!-- JS, Folie 66: DOM Beispiel > HTML manipulieren-->
+    <!--
+    <div id="app"></div>
+    <button onclick="blueFont()">Paint Blue</button>
+    <button onclick="redFont()">Paint Red</button>$
+    -->
+
+    <!--- JJJ -->
+    <!--
+    <h2>JavaScript getHours() und getMinutes()</h2>
+    <p id="demo"></p>
+    -->
+    
+</body>
+
+
+<script>
+
+    // AAA
+    // JS, Folie 66: DOM Beispiel > HTML manipulieren
+    /*
+   function blueFont() {
+        document.getElementById("app").style.color = "blue";
+    }
+    function redFont() {
+        document.getElementById("app").style.color = "red";
+    }
+    let name = "Goofy";
+        document.getElementById("app").innerHTML = + name + "!";
+    */
+
+	// BBB
+    function ageControl(age) {
+        return "You are a wise " + age + "years odl!"
+    }
+    // document.writeln(ageControl(18));
+    // console.log(ageControl(18));
+    
+    // CCC
+    function hasThursdayArrived(day) {
+        if(day === "Thursady") {
+            return "Yay, Thusrday!";
+        } else {
+            return "Hold on, young padawan!";
+        }
+    }
+    // document.writeln(hasThursdayArrived("Wednesday"))
+    // console.log(hasThursdayArrived("Wednesday"))
+
+    // DDD
+    /*
+    const day = 'Montag';
+    switch (day) {
+        case 'Montag':
+            console.log('Voller Motivation in die neue Woche!');
+            break;
+        case 'Dienstag':
+            console.log('Fast die Hälfte geschafft!');
+            break;
+        case 'Mittwoch':
+            console.log('Noch 1x schlafen > Donnerstag!');
+            break;
+        case 'Donnerstag':
+            console.log('Donnerstag ist der neue Freitag!');
+        default:
+              console.log(`Mein Lieblingstag ist ${day}.`);
+            
+    }
+    */
+
+
+    // EEE
+    /*function daysOfTheWeek(day) {
+    switch (day) {
+        case 'Montag':
+            console.log('Voller Motivation in die neue Woche!');
+            break;
+        case 'Dienstag':
+            console.log('Fast die Hälfte geschafft!');
+            break;
+        case 'Mittwoch':
+            console.log('Noch 1x schlafen > Donnerstag!');
+            break;
+        case 'Donnerstag':
+            console.log('Donnerstag ist der neue Freitag!');
+            break;
+        default:
+            console.log(`Mein Lieblingstag ist ${day}.`);
+        
+        }
+    }
+    daysOfTheWeek("Donnerstag");
+    */
+
+
+    // Single, double or back quotes ?
+    /* 
+    const day = "Donnerstag";        
+    console.log(`Mein Lieblingstag ist ${day}.`);
+    console.log("Mein Lieblinstag ist" + day + ".");
+    console.log('Das ist ein "String"');
+    console.log("String bla bla bla bla');
+    */
+
+
+    // FFF
+    /*
+    const myArray = ['h', 'e', 'l', 'l', 'o'];
+    console.log(myArray.length);
+    console.log(myArray[2]);
+    */
+
+    // GGG
+    /*
+    for (let i = 0; i <= 101; i++) {
+        document.writeln(i+Math.PI);
+    }
+    */
+
+    // HHH
+    /*
+    const limit = 100;
+
+    for (let i = 0; i <= limit; i++) {
+        if (i % 2 == 0) {
+            continue;
+        }
+        document.writeln(i+Math.PI);
+    }
+    */
+
+    // III
+    /*
+    for (let i = 0; i < 100; i++) {
+        document.writeln(i);
+        if (i == 45) {
+            break;
+        }
+    }
+    */
+
+    // JJJ
+    /*
+    const date = new Date();
+    document.getElementById("demo").innerHTML = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}`;
+    */
+
+    </script>
+    </html>
